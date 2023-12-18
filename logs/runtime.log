@@ -1,9 +1,10 @@
-2023-12-18 06:25:56 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
-2023-12-18 06:26:01 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Destiny 2: Legacy Collection', 'url': 'https://store.epicgames.com/en-US/p/destiny-2--legacy-collection-2023'}
-2023-12-18 06:26:05 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/destiny-2--legacy-collection-2023'}
-2023-12-18 06:26:39 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/destiny-2--legacy-collection-2023'}
-2023-12-18 06:27:16 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/destiny-2--legacy-collection-2023'}
-2023-12-18 06:27:52 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3675), thread 'MainThread' (139743637269376): - {}
+2023-12-19 06:26:41 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
+2023-12-19 06:26:47 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Destiny 2: Legacy Collection', 'url': 'https://store.epicgames.com/en-US/p/destiny-2--legacy-collection-2023'}
+2023-12-19 06:26:47 | ERROR    | hcaptcha_challenger.onnx.modelhub:flush_runtime_assets:190 | 0 - {}
+2023-12-19 06:26:47 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/destiny-2--legacy-collection-2023'}
+2023-12-19 06:27:21 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/destiny-2--legacy-collection-2023'}
+2023-12-19 06:27:58 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/destiny-2--legacy-collection-2023'}
+2023-12-19 06:28:35 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3813), thread 'MainThread' (140411207613312): - {}
 Traceback (most recent call last):
   File "/home/runner/work/epic_/epic_/epic/src/claim.py", line 162, in <module>
     asyncio.run(run())
