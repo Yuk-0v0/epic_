@@ -1,4 +1,4 @@
-2023-12-31 06:28:46 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3629), thread 'MainThread' (139761247759232): - {}
+2024-01-01 06:28:15 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3529), thread 'MainThread' (140339652688768): - {}
 Traceback (most recent call last):
   File "/home/runner/work/epic_/epic_/epic/src/claim.py", line 151, in stash
     await self.claim_epic_games(context)
