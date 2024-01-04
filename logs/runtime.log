@@ -1,4 +1,33 @@
-2024-01-04 06:26:57 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
-2024-01-04 06:27:03 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'A Plague Tale: Innocence', 'url': 'https://store.epicgames.com/en-US/p/a-plague-tale-innocence'}
-2024-01-04 06:27:07 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/a-plague-tale-innocence'}
-2024-01-04 06:27:20 | SUCCESS    | epic_games.agent:claim_weekly_games:314 | Pass claim task - {'reason': 'Free games not added to shopping cart'}
+2024-01-05 06:27:30 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
+2024-01-05 06:27:38 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': "Marvel's Guardians of the Galaxy", 'url': 'https://store.epicgames.com/en-US/p/marvels-guardians-of-the-galaxy'}
+2024-01-05 06:27:43 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/marvels-guardians-of-the-galaxy'}
+2024-01-05 06:27:52 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
+2024-01-05 06:27:55 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
+2024-01-05 06:28:00 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Plеase click on all imаges of the heaviest аnimal species'}
+2024-01-05 06:28:01 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please click on all images of the heaviest animal species.', "This is a picture that don't look like please click on all images of the heaviest animal species."], 'prompt': 'Plеase click on all imаges of the heaviest аnimal species', 'timit': '0.912s'}
+2024-01-05 06:28:10 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2024-01-05 06:28:43 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/marvels-guardians-of-the-galaxy'}
+2024-01-05 06:28:51 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
+2024-01-05 06:28:54 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
+2024-01-05 06:28:59 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on all images of the heaviest animal species'}
+2024-01-05 06:29:00 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please click on all images of the heaviest animal species.', "This is a picture that don't look like please click on all images of the heaviest animal species."], 'prompt': 'Please click on all images of the heaviest animal species', 'timit': '0.726s'}
+2024-01-05 06:29:10 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2024-01-05 06:29:42 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/marvels-guardians-of-the-galaxy'}
+2024-01-05 06:29:51 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
+2024-01-05 06:29:53 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
+2024-01-05 06:29:58 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please сlick where the image apрearѕ broken or tampered with'}
+2024-01-05 06:30:04 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2024-01-05 06:31:04 | ERROR    | hcaptcha_challenger.agents.playwright.control:execute:615 | task interrupt <backcall> - {'reason': 'Failed to obtain challenge task'}
+2024-01-05 06:31:04 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2024-01-05 06:32:04 | ERROR    | hcaptcha_challenger.agents.playwright.control:execute:615 | task interrupt <backcall> - {'reason': 'Failed to obtain challenge task'}
+2024-01-05 06:32:04 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2024-01-05 06:33:05 | ERROR    | hcaptcha_challenger.agents.playwright.control:execute:615 | task interrupt <backcall> - {'reason': 'Failed to obtain challenge task'}
+2024-01-05 06:33:05 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2024-01-05 06:34:05 | ERROR    | hcaptcha_challenger.agents.playwright.control:execute:615 | task interrupt <backcall> - {'reason': 'Failed to obtain challenge task'}
+2024-01-05 06:34:05 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2024-01-05 06:35:05 | ERROR    | hcaptcha_challenger.agents.playwright.control:execute:615 | task interrupt <backcall> - {'reason': 'Failed to obtain challenge task'}
+2024-01-05 06:35:05 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2024-01-05 06:36:05 | ERROR    | hcaptcha_challenger.agents.playwright.control:execute:615 | task interrupt <backcall> - {'reason': 'Failed to obtain challenge task'}
+2024-01-05 06:36:05 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2024-01-05 06:37:05 | ERROR    | hcaptcha_challenger.agents.playwright.control:execute:615 | task interrupt <backcall> - {'reason': 'Failed to obtain challenge task'}
+2024-01-05 06:37:05 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
