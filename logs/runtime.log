@@ -1,22 +1,25 @@
-2024-02-05 06:24:43 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
-2024-02-05 06:24:49 | WARNING    | epic_games.agent:get_order_history:467 | Failed to get order history, cookie may have expired - {}
-2024-02-05 06:24:50 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Doors - Paradox', 'url': 'https://store.epicgames.com/en-US/p/doors-paradox-5896c7'}
-2024-02-05 06:24:55 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/doors-paradox-5896c7'}
-2024-02-05 06:25:04 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
-2024-02-05 06:25:06 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
-2024-02-05 06:25:11 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Ρlease click on the object that differs from others.'}
-2024-02-05 06:25:16 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
-2024-02-05 06:25:48 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/doors-paradox-5896c7'}
-2024-02-05 06:25:57 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
-2024-02-05 06:25:59 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
-2024-02-05 06:26:04 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Ρlease click on the object that ԁiffers from otһers.'}
-2024-02-05 06:26:11 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
-2024-02-05 06:26:43 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/doors-paradox-5896c7'}
-2024-02-05 06:26:52 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
-2024-02-05 06:26:54 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
-2024-02-05 06:26:59 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on the object that differs from others.'}
-2024-02-05 06:27:04 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
-2024-02-05 06:27:36 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3492), thread 'MainThread' (140464064146304): - {}
+2024-02-06 06:27:16 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
+2024-02-06 06:27:24 | INFO    | __main__:claim_epic_games:97 | Try to flush cookie - {'task': 'claim_epic_games'}
+2024-02-06 06:27:26 | SUCCESS    | epic_games.agent:_login:253 | login - {'result': 'Successfully refreshed tokens'}
+2024-02-06 06:27:38 | SUCCESS    | epic_games.agent:flush_token:280 | flush_token - {'path': PosixPath('/home/runner/work/epic_/epic_/epic/user_data_dir/epic-games@646129678/ctx_cookie.json')}
+2024-02-06 06:27:38 | WARNING    | epic_games.agent:get_order_history:467 | Failed to get order history, cookie may have expired - {}
+2024-02-06 06:27:38 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Doors - Paradox', 'url': 'https://store.epicgames.com/en-US/p/doors-paradox-5896c7'}
+2024-02-06 06:27:38 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/doors-paradox-5896c7'}
+2024-02-06 06:27:47 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
+2024-02-06 06:27:49 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
+2024-02-06 06:27:54 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Ρlease click on the object that differs from otherѕ.'}
+2024-02-06 06:27:59 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2024-02-06 06:28:31 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/doors-paradox-5896c7'}
+2024-02-06 06:28:40 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
+2024-02-06 06:28:42 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
+2024-02-06 06:28:47 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on thе object that differs from othеrѕ.'}
+2024-02-06 06:28:52 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2024-02-06 06:29:24 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/doors-paradox-5896c7'}
+2024-02-06 06:29:33 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
+2024-02-06 06:29:36 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
+2024-02-06 06:29:41 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on the object that differs from others.'}
+2024-02-06 06:29:51 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2024-02-06 06:30:22 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3581), thread 'MainThread' (140307834985344): - {}
 Traceback (most recent call last):
   File "/home/runner/work/epic_/epic_/epic/src/claim.py", line 151, in stash
     await self.claim_epic_games(context)
