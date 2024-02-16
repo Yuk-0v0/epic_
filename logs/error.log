@@ -1,4 +1,4 @@
-2024-02-16 06:25:59 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3667), thread 'MainThread' (139790133599104): - {}
+2024-02-17 06:26:05 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3564), thread 'MainThread' (140080438373248): - {}
 Traceback (most recent call last):
   File "/home/runner/work/epic_/epic_/epic/src/claim.py", line 162, in <module>
     asyncio.run(run())
