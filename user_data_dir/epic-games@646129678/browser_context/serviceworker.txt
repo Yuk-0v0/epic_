@@ -1,17 +1,5 @@
 9
 
-https://store.epicgames.com/
-https://store.epicgames.com/epic-service-worker.js
-true
-{49c7bd41-4153-410e-8e72-cce2eb2e787b}
-0
-1709591159874769
-1709591159888427
-1709591159159299
-1
-true
-#
-
 https://www.epicgames.com/account/
 https://www.epicgames.com/account/epic-service-worker.js
 true
@@ -21,5 +9,17 @@ true
 1708554398797142
 1708554397720400
 0
+true
+#
+
+https://store.epicgames.com/
+https://store.epicgames.com/epic-service-worker.js
+true
+{6f4f608b-7e6e-44c0-a31f-8498dc39e7db}
+0
+1709936971970703
+1709936971972593
+1709936969800415
+1
 true
 #
