@@ -2,12 +2,12 @@
 
 https://www.epicgames.com/account/
 https://www.epicgames.com/account/epic-service-worker.js
-true
-{d5b34fc6-182b-4e69-9ca0-ec5d13a40fc8}
+false
+{121a4cb8-67a4-4580-9eeb-22cecfa1fcee}
 0
-1708554398696250
-1708554398797142
-1708554397720400
+1710973570100126
+1710973592384667
+1710973570092221
 0
 true
 #
