@@ -11,15 +11,3 @@ false
 0
 true
 #
-
-https://store.epicgames.com/
-https://store.epicgames.com/epic-service-worker.js
-true
-{47106cab-3a8b-4470-981b-14bed19b9382}
-0
-1711146467429455
-1711146467431441
-1711146466284002
-1
-true
-#
