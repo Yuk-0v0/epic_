@@ -1,10 +1,10 @@
-2024-05-04 06:27:43 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
-2024-05-04 06:27:51 | INFO    | __main__:claim_epic_games:97 | Try to flush cookie - {'task': 'claim_epic_games'}
-2024-05-04 06:27:54 | SUCCESS    | epic_games.agent:_login:253 | login - {'result': 'Successfully refreshed tokens'}
-2024-05-04 06:28:02 | SUCCESS    | epic_games.agent:flush_token:280 | flush_token - {'path': PosixPath('/home/runner/work/epic_/epic_/epic/user_data_dir/epic-games@646129678/ctx_cookie.json')}
-2024-05-04 06:28:02 | WARNING    | epic_games.agent:get_order_history:467 | Failed to get order history, cookie may have expired - {}
-2024-05-04 06:28:02 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Orcs Must Die! 3', 'url': 'https://store.epicgames.com/en-US/p/combo-a7e03a'}
-2024-05-04 06:28:02 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Cat Quest II', 'url': 'https://store.epicgames.com/en-US/p/cat-quest-ii-9dbefc'}
-2024-05-04 06:28:02 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/combo-a7e03a'}
-2024-05-04 06:28:18 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/cat-quest-ii-9dbefc'}
-2024-05-04 06:28:32 | SUCCESS    | epic_games.agent:claim_weekly_games:314 | Pass claim task - {'reason': 'Free games not added to shopping cart'}
+2024-05-05 06:27:01 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
+2024-05-05 06:27:10 | INFO    | __main__:claim_epic_games:97 | Try to flush cookie - {'task': 'claim_epic_games'}
+2024-05-05 06:27:12 | SUCCESS    | epic_games.agent:_login:253 | login - {'result': 'Successfully refreshed tokens'}
+2024-05-05 06:27:20 | SUCCESS    | epic_games.agent:flush_token:280 | flush_token - {'path': PosixPath('/home/runner/work/epic_/epic_/epic/user_data_dir/epic-games@646129678/ctx_cookie.json')}
+2024-05-05 06:27:20 | WARNING    | epic_games.agent:get_order_history:467 | Failed to get order history, cookie may have expired - {}
+2024-05-05 06:27:21 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Orcs Must Die! 3', 'url': 'https://store.epicgames.com/en-US/p/combo-a7e03a'}
+2024-05-05 06:27:21 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Cat Quest II', 'url': 'https://store.epicgames.com/en-US/p/cat-quest-ii-9dbefc'}
+2024-05-05 06:27:21 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/combo-a7e03a'}
+2024-05-05 06:27:36 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/cat-quest-ii-9dbefc'}
+2024-05-05 06:27:51 | SUCCESS    | epic_games.agent:claim_weekly_games:314 | Pass claim task - {'reason': 'Free games not added to shopping cart'}
